@@ -43,7 +43,7 @@ document.getElementById("smsForm").addEventListener("submit", function (event) {
     "\n\n If you don't recieve any update within day, please contact on following information. \n Name: Chandrakant Mishra \n Contact No.: +91 8082005377";
 
   // Open messaging app with pre-filled message
-  var recipientNumber = "8454993967";
+  var recipientNumber = "9372546388";
   var encodedMessage = encodeURIComponent(name + number + message);
   var smsUrl = "sms:" + recipientNumber + "?body=" + encodedMessage;
   window.location.href = smsUrl;
